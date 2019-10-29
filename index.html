@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Hi, this is a template free, please suscribe to my chanel
+AlexCG Design, Thank you, I hope this template helps you -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ROP COBRA</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body class="hidden">
+
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo2.png" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-trabajo" class="btn-header">Productos</a>
+                    <a href="#" id="enlace-servicio" class="btn-header">Nuestros Equipos</a>
+                    <a href="#" id="enlace-equipo" class="btn-header">Contáctanos</a>                 
+                    <!-- <a href="#" id="enlace-contacto" class="btn-header">Nuestras Redes</a> -->
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>GRUPO COBRA</h1>
+            <h2>ROPA BLINDADA</h2>
+        </div>
+    </header>
+    <main>
+        <section class="work contenedor" id="trabajo">
+            <h3>Nuestro trabajo</h3>
+            <p class="after">Hacemos de algo simple algo extraordinario</p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='diseño'>Chalecos Blindados</li>
+                    <li class="filter" data-nombre='programacion'>Ropa Blindada</li>
+                    <li class="filter" data-nombre='marketing'>Equipos y Accesorios</li>
+                    <li class="filter" data-nombre='botas'>Equipo Táctico</li>
+                    <li class="filter" data-nombre='antimotines'>Equipos Antimotines</li>
+                    <li class="filter" data-nombre='mre'>Comida de Combate</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/CH2.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                            CHALECO ANTIBALA TÁCTICO
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            <div class="img-work">
+                                                    <img src="img/CH2.jpg" alt="">
+                                                </div>
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco tactico para uso exterior con paneles balísticos elaborados con
+                                            polietileno de alta densidad o aramidas, los cuales están encapsulados en
+                                            una cubierta impermeable sellados por equipo de ultrasonido. El modelo de
+                                            panel balístico B.E. Armor 4000 cuenta con la certificación NIJ 0101.06 para
+                                            nivel de protección IIIA. <br>
+
+                                            El modelo de panel balístico B.E. Armor Para IIIA esta fabricado con telas
+                                            de aramida unidireccional y cuenta con certificación NIJ 0101.06 para el
+                                            nivel de protección IIIA. <br>
+
+                                            La funda táctica esta elaborada con tela de nylon de alta resistencia,
+                                            bolsas para insertos balísticos en parte frontal y trasera y sistema MOLLE
+                                            en parte frontal trasera y lateral. Cuenta con ajustes en hombros y
+                                            laterales.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Modal -->
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/CH3.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal1">
+                            CHALECO INTERNO
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="img-work">
+                                        <img src="img/CH3.JPG" alt="">
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco interno con paneles balísticos elaborados con polietileno de alta
+                                            densidad, o aramidas los cuales están encapsulados en una cubierta de
+                                            material impermeable sellados por equipo de ultrasonido. El modelo de panel
+                                            balístico B.E. Armor 4000 cuenta con la certificacion NIJ 0101.06 para el
+                                            nivel de protección IIIA. <br>
+                                            <br>
+                                            El modelo B.E. Armor Para IIIA, esta fabricado con telas unidireccionales de
+                                            aramida y cuenta con certificación NIJ 0101.06 para el nivel de protección
+                                            IIIA. También tenemos disponible el modelo B.E. Armor Elite II, el cual
+                                            cuenta con certificación nivel NIJ 0101.06 II, el cual permite una
+                                            protección adecuada con un bajo perfil. <br>
+                                            <br>
+                                            Este modelo de chaleco para uso interior es liviano, flexible y muy comodo.
+                                            Su peso en una talla mediana es de 5 libras o 2.2 Kilos. La funda está
+                                            elaborada con una tela de polialgodón en se exterior y una tela tipo mesh en
+                                            su interior y cuenta con ajustes en hombros y costados.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Modal -->
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/CH4.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal2">
+                            CHALECO INTERNO
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco tactico para uso exterior con paneles balísticos elaborados con
+                                            polietileno de alta densidad o aramidas, los cuales están encapsulados en
+                                            una cubierta impermeable sellados por equipo de ultrasonido. El modelo de
+                                            panel balístico B.E. Armor 4000 cuenta con la certificación NIJ 0101.06 para
+                                            nivel de protección IIIA.
+                                            <br>
+                                            El modelo de panel balístico B.E. Armor Para IIIA esta fabricado con telas
+                                            de aramida unidireccional y cuenta con certificación NIJ 0101.06 para el
+                                            nivel de protección IIIA.
+                                            <br>
+                                            La funda táctica esta elaborada con tela de nylon de alta resistencia,
+                                            bolsas para insertos balísticos en parte frontal y trasera y sistema MOLLE
+                                            en parte frontal trasera y lateral. Cuenta con ajustes en hombros y
+                                            laterales.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/CH5.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal3">
+                            CHALECO VIP TIPO SAFARI
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco antibala tipo safari con paneles balísticos de polietileno de alta
+                                            densidad o de aramida unidireccional encapsulados en un forro 100%
+                                            impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura.
+
+
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/CH6.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal4">
+                            CHALECO VIP TIPO ENGUATADO
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco antibala tipo enguatado con paneles balísticos de polietileno de
+                                            alta densidad o de aramida unidireccional encapsulados en un forro 100%
+                                            impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura
+
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/CH7.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal5">
+                            CHALECO VIP TIPO ENGUATADO MUJER
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco antibala tipo enguatado con paneles balísticos de polietileno de
+                                            alta densidad o de aramida unidireccional encapsulados en un forro 100%
+                                            impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/ROP1.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal5">
+                            CHAMARRA ANTIBALA TIPO POLO
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco antibala tipo enguatado con paneles balísticos de polietileno de
+                                            alta densidad o de aramida unidireccional encapsulados en un forro 100%
+                                            impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/ROP2.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal5">
+                            CHAMARRA DE PIEL ANTIBALA
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chaleco antibala tipo enguatado con paneles balísticos de polietileno de
+                                            alta densidad o de aramida unidireccional encapsulados en un forro 100%
+                                            impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/ROP3.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal5">
+                            CHAMARRA ENGUATADA ANTIBALAS
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chamarra antibala tipo enguatada de corte europeo con paneles balísticos de
+                                            polietileno de alta densidad o de aramida unidireccional encapsulados en un
+                                            forro 100% impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/ROP4.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal7">
+                            CHAMARRA DE MEZCLILLA ANTIBALAS
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Chamarra antibala tipo enguatada de corte europeo con paneles balísticos de
+                                            polietileno de alta densidad o de aramida unidireccional encapsulados en un
+                                            forro 100% impermeable sellados por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/ROP5.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal6">
+                            BLAZER ANTIBALAS
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Blazer antibala con paneles balísticos de polietileno de alta densidad o de
+                                            aramida unidireccional encapsulados en un forro 100% impermeable sellados
+                                            por equipo de ultrasonido. <br>
+                                            <br>
+                                            Efectiva contra amenazas de arma corta. <br>
+                                            <br>
+                                            La funda esta elaborada con telas resistentes pero livianas para mayor
+                                            comodidad y frescura.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/ROP6.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal8">
+                            CAMISETA ANTIBALAS
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Camiseta antibala para uso interior con paneles balísticos elaborados con
+                                            polietileno de alta densidad, aramida unidireccional los cuales están
+                                            encapsulados en una cubierta impermeable sellados por equipo de ultrasonido.
+                                            <br>
+                                            <br>
+                                            El modelo de panel balístico B.E. Armor 4000 cuenta con la certificación NIJ
+                                            0101.06 para nivel de protección NIJ 0101.06 IIIA. <br>
+                                            <br>
+                                            El modelo de panel B.E. Armor Para IIIA esta fabricado con telas de aramida
+                                            unidireccional y cuenta con certificación NIJ 0101.06 IIIA. <br>
+                                            <br>
+                                            El modelo de panel balístico B.E. Armor Elite II cuenta con certificación
+                                            NIJ 0101.06 II para un bajo perfil y adecuada protección balística. <br>
+                                            <br>
+                                            Este modelo de camisa , para uso uso exterior es liviana, flexible, y muy
+                                            cómoda. Su peso en una talla mediana es de 5 libras o 2.2 kilos. <br>
+                                            <br>
+                                            La funda está elaborada tela tipo mesh o puede ser elaborada con tela de
+                                            <br>
+                                            tipo neopreno.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/AC1.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal10">
+                            MOCHILA ANTIBALAS - Modelo B.E. Armor 2000
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Diseño e implementos clave a la hora de un ataque: <br>
+                                            <br>
+                                            1. Costuras con hilos de alta resistencia y puntadas dobles para evitar
+                                            desgarramiento. <br>
+                                            2. Doble forro para evitar desplazamiento de Panel balístico. <br>
+                                            <br>
+                                            3. Panel balístico esta ubicado en la parte posterior de la mochila más
+                                            cercana <br>
+                                            al cuerpo. <br>
+                                            <br>
+                                            4. Material balístico polietileno de alta densidad multi impactos.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cont-work marketing">
+
+                    <div class="img-work">
+                        <img src="img/AC2.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal11">
+                            MALETÍN ANTIBALAS - modelo B.E. Armor 2000
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            1. Costuras con hilos de alta resistencia y puntadas dobles para evitar
+                                            desgarramiento <br>
+                                            <br>
+                                            2. Doble forro para evitar desplazamiento de Panel balístico. <br>
+                                            <br>
+                                            3. Aspecto de maletín tipo porta computadora con bolsos y agarradores. <br>
+                                            <br>
+                                            4. EL principal es sujetado mientras el maletín se desdoble en tres partes.
+                                            Traslapes impides agujeros balísticos. <br>
+                                            <br>
+                                            5. Material balístico de polietileno de Alta resistencia a multi impactos.
+                                            <br>
+                                            <br>
+                                            6. Tamaño 1.15 metros de alto x 0.50 metros de ancho.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cont-work marketing">
+
+
+                    <div class="img-work">
+                        <img src="img/AC3.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal"
+                            data-target="#exampleModal12">
+                            MANTA ANTIBALAS - modelo B.E. Armor 2000
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Informacion del producto</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>Especificaciones</h2>
+                                        <p align="justify">
+                                            Escudo flexible con panel balísticos de polietileno de alta densidad. Escudo
+                                            único con funciones específicas y diseño portátil. Por su flexibilidad
+                                            provee protección en una variedad de situaciones de amenaza, inclusive para
+                                            varias personas. Confección controlada por normativas internacionales para
+                                            garantizar su debido desempeño a la hora de un impacto con proyectil de
+                                            fuego.
+
+                                            1. Costuras con hilos de alta resistencia y puntadas dobles para evitar
+                                            desgarramiento. <br>
+                                            <br>
+                                            2. Doble forro para evitar desplazamiento de Panel balístico. <br>
+                                            <br>
+                                            3. Barras de aluminio para agarre en parte superior e inferior para mayor
+                                            flexibilidad. <br>
+                                            <br>
+                                            4. Agarradores en varios puntos también para mayor flexibilidad. <br>
+                                            <br>
+                                            5. Broche táctico para velocidad en desenvolvimiento del escudo. <br>
+                                            <br>
+                                            6. Material balístico de Aramida de Alta resistencia a multi impactos. <br>
+                                            <br>
+                                            7. A prueba de agua. <br>
+                                            <br>
+                                            8. Tamaño 1.6 metros de alto x 0.80 metros de ancho.
+
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="servicio">
+            <div class="contenedor">
+                <h3>Nuestros Equipos</h3>
+                <p class="after">Siempre mejorando para ti</p>
+                <div class="servicios">
+                    <div class="caja-servicios">
+                        <img src="img/header/chaleco-antibalas.png" alt="">
+                        <h4>Equipo Blindado</h4>
+                        <p>Contamos con el equipo blindado que más se adapte a sus necesidades.</p>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="img/header/mochila.png" alt="">
+                        <h4>Equipamento Especial</h4>
+                        <p>El equipamento que usted necesita, nosotros lo conseguimos.</p>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="img/header/pistola.png" alt="">
+                        <h4>Armamento Regulado</h4>
+                        <p>Ofrecemos el armamento que pida, y todo totalmente legal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team contenedor" id="equipo">
+            <div class="contenedor">
+                <h3>Haga su pedido con Nosotros</h3>
+                <p class="after">Contáctenos en las siguientes redes:</p>
+                <div class="servicios">
+                    <div class="caja-servicios">
+                        <a href="https://www.facebook.com/RopBlindadoselSalvador/" target="_blank"><img src="img/redes/facebook.png" alt=""></a>
+                    </div>
+                    <div class="caja-servicios">
+                        <a href="https://twitter.com/grupocobra1997" target="_blank"><img src="img/redes/twitter.png" alt=""></a>
+                    </div>
+                    <div class="caja-servicios">
+                        <a href="https://api.whatsapp.com/send?phone=50379851378&text=Hola!%20¡Escríbanos!%20Nosotros%20le%20atenderemos" target="_blank"><img src="img/redes/whatsapp.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="img/logo2.png" alt="">
+            </div>
+            <!-- <div class="iconos">
+                <button><a href="https://api.whatsapp.com/send?phone=50379851378"><i
+                            class="fab fa-whatsapp"></i></a></button>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+            </div> -->
+            
+            <p>Puedes consultar más productos llamándonos a los siguientes números:</p>
+            <p style="color: white;">2450-4015, 2450-0246</p>
+            <p style="color: white;">Estamos ubicados en: Av. Las Palmeras Plaza Comercial El Arco, Local #15, Sonsonate.</p>
+            
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+
+</html>
