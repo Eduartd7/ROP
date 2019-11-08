@@ -162,7 +162,10 @@ nav .enlaces a:hover{
   font-family: 'Capture';
   src: url(fuentes/Capture.ttf);
 }
-
+@font-face{
+  font-family: 'Hansville';
+  src: url(fuentes/Hansville.otf);
+}
 .textos{
   width: 100%;
   height: 100%;
@@ -202,9 +205,10 @@ nav .enlaces a:hover{
 .contenedor p{
   font-size: var(--subtitulos);
   font-weight: 300;
-  color: var(--color1);
+  color: #0B2161;
   font-family: 'Capture';
 }
+
 
 .after::after{
   content:'';
